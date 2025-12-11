@@ -1,0 +1,16 @@
+[project]
+name = "backend"
+version = "0.1.0"
+authors = [
+    {name = "Ichiro Wang"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard] (>=0.124.0,<0.125.0)",
+    "polars (>=1.36.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
